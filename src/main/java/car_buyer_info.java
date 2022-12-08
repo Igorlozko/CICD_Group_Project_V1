@@ -11,6 +11,7 @@ public class car_buyer_info {
         setPhone(phone);
         setAge(age);
     }
+
     public String getTitle() {
         return title;
     }
@@ -22,6 +23,7 @@ public class car_buyer_info {
             throw new IllegalArgumentException("This is not a valid name. Use Mr, Ms or Mrs.");
         }
     }
+
     public String getName() {
         return name;
     }
@@ -33,6 +35,7 @@ public class car_buyer_info {
             throw new IllegalArgumentException("This is not a valid name.");
         }
     }
+
     public long getPhone() {
         return phone;
     }
@@ -44,6 +47,7 @@ public class car_buyer_info {
             throw new IllegalArgumentException("This is not a valid phone number.");
         }
     }
+
     public int getAge() {
         return age;
     }
@@ -56,5 +60,3 @@ public class car_buyer_info {
         }
     }
 }
-
-
