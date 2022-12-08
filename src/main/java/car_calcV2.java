@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class car_calcV2 {
     private int amount_Borrow;
     private int loan_lenght;

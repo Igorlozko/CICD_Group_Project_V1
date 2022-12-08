@@ -23,6 +23,6 @@ class car_calcV2SuccessTest {
     }
     @Test
     void testdown_payementPass(){
-        assertEquals(4000, myBuyer.getdown_payement());
+        assertEquals(0, myBuyer.getdown_payement());
     }
 }
