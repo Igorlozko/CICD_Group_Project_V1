@@ -17,7 +17,7 @@ pipeline{
                  }
             }
         }
-        stage('Deploy'){
+        stage('Deploy Stage'){
             steps{
                   echo 'deploying the application'
                   withMaven(maven:'apache-maven-3.6.1'){
